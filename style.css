@@ -1,0 +1,41 @@
+*{
+    font-family: 'nanumgothic', sans-serif;
+}
+
+div{
+    width :100px;
+    height: 100px;
+    margin-bottom: 2em;
+    background: red;
+}
+
+/* .container{ */
+   /* display: flex; */
+   /* flex-direction: column;  */
+   /* justify-content: center; */
+   /* 이 부분이 이해가 안됨...전체적으론 이렇게 하면 이동이되지만.. */
+   /* 만약에 그냥 box만 이동하려하면 마진 20 auto;를 줘야 가운데로 이동가능하다는게; */
+   /* background: orange; */
+   /* left: 20px; */
+   /* top: 20px; */
+   /* color: white; */
+   /* text-align: center; */
+/* } */
+
+.container{
+    background: lightgreen;
+    left: 20em;
+    top: 20em;
+    position: relative;
+  
+
+}
+
+.box{
+    background: #d4cbd2;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}

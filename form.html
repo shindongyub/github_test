@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML FORM</title>
+<style>
+  *{
+    font-family: 'nanumgothic';
+
+  }
+  input, select, textarea {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px;
+    background-color: lightcyan;
+  }
+  .placeholder{
+    text-align: center;
+  }
+  .date{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.3em;
+ }
+ h1{
+  text-align: center;
+  color: blue;
+ }
+ h2{
+  text-align: center;
+  color: red;
+ }
+
+ .liquor{
+   margin: 30% auto;
+ }
+
+table, th, td {
+  border: 3px solid red;
+  text-align: center; 
+  background-color: rgb(233, 231, 219);
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 0 auto;
+  vertical-align: middle;
+  font-size: 1.5rem; 
+  width: 80%;
+  height: 500%;
+  }
+  
+  table{
+    border-collapse: collapse;
+  }
+
+
+
+</style>
+</head>
+<body>
+<p>나의 <em>최애</em> 유튜브 채널은 <i>옝님이 채널</i>이다</p>
+    <input type="text" class="placeholder" placeholder="id를 입력하시오.">
+    <input type="password" class="placeholder" placeholder="패스워드를 입력하시오.">
+    <input type="date" class="date">
+    <input type="time">
+    <input type="file">
+    <input type="checkbox">
+    <input type="radio">
+   <select>
+     <option>사과</option>
+     <option>귤</option>
+     <option>오렌지</option>
+   </select>
+  
+
+
+
+<div class="liquor">
+   <table>
+    <tr>
+      <th>술종류</th>
+      <th>가격표</th> 
+      <th>용량</th>
+    </tr>
+    
+    <tr>
+      <td>조니워커 블루</td>
+      <td>450,000원</td>
+      <td>750ml</td>
+    </tr>
+    <tr>
+      <td>발베니 21년</td>
+      <td>800,000원</td>
+      <td>750ml</td>
+    </tr>
+    <tr>
+      <td>로얄 샬롯</td>
+      <td>200,000원</td>
+      <td>700ml</td>
+    </tr>
+    </table>
+  </div>
+
+
+  
+</body>
+</html>
